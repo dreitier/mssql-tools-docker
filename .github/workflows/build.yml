@@ -19,4 +19,5 @@ jobs:
         name: dreitier/mssql-tools
         username: ${{ secrets.DOCKER_HUB_USERNAME }}
         password: ${{ secrets.DOCKER_HUB_TOKEN }}
-        snapshot: true
+        snapshot: false
+        tag_names: true
